@@ -17,7 +17,8 @@ const getEnergy = () => {
 </script>
 
 <template>
-    <div>
+
+<div class="audio">
         <h1>Energy Level</h1>
         <select v-model="energy">
             <option disabled value="">Select an energy level</option>

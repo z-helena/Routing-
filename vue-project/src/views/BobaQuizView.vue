@@ -19,7 +19,7 @@ const getBoba = () => {
 </script>
 
 <template>
-    <div>
+    <div class="boba-quiz">
         <h1>What Boba Tea Are You?</h1>
         <select v-model="genre">
             <option disabled value="">Select a genre</option>
