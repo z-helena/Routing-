@@ -9,6 +9,14 @@ const router = createRouter({
       name: 'home',
       component: HomeView,
     },
+
+     {
+        path: '/boba-quiz',
+        name: 'boba-quiz',
+        component: () => import('../views/BobaQuizView.vue'), 
+      },
+
+
     {
       path: '/about',
       name: 'about',
